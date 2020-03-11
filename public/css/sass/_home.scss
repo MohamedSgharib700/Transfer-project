@@ -1,0 +1,414 @@
+.sec1{
+  background-color: $color-background;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  .head-text{
+    @extend %head-text;
+      margin-bottom: 30px;
+  }
+  .head-p{
+    @extend %head-p;
+    margin-bottom: 30px;
+    @media (min-width: 320px) and (max-width: 480px) {
+      width: 90%;
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+  }
+  .box-sec1{
+    img{
+      width: 255px;
+      height: 255px;
+      margin-bottom: 15px;
+    }
+    h2{
+      color: $color1;
+      font-family: $f-bold;
+      text-transform: uppercase;
+      font-size: 25px;
+      letter-spacing: 1px;
+      @media (min-width: 481px) and (max-width: 1280px){
+            font-size: 15px;
+        }
+
+      @media (min-width: 320px) and (max-width: 480px) {
+          font-size: 20px;
+      }
+    }
+    p{
+      color: $min-color;
+      font-size: 18px;
+      @media (min-width: 481px) and (max-width: 1280px){
+            font-size: 15px;
+        }
+      @media (min-width: 320px) and (max-width: 480px) {
+          font-size: 15px;
+          width: 90%;
+          margin-left: auto;
+          margin-right: auto;
+      }
+    }
+  }
+}
+.sec2{
+  background: url(../img/reviews_full_bg.png)bottom center fixed;
+  min-height: 554px;
+  padding-top: 60px;
+  .head-text{
+    @extend %head-text;
+    margin-bottom: 60px;
+  }
+  .myslider{
+    img{
+      width: 120px;
+      height: 120px;
+      border-radius: 100%;
+      margin-bottom: 20px;
+    }
+    ul{
+      li{
+        display: inline-block;
+      }
+    }
+    h3{
+      font-family: $f-bold;
+      font-size: 20px;
+      color: $min-color;
+      text-transform: uppercase;
+    }
+    .fa-star{
+      color: $color1;
+      margin-bottom: 15px;
+    }
+    .fa-star-o{
+      color: $min-color;
+    }
+    p{
+      width:59%;
+      margin: auto;
+      color: $min-color;
+      font-size: 20px;
+      @media (min-width: 481px) and (max-width: 1280px){
+            font-size: 15px;
+            width: 80%;
+        }
+      @media (min-width: 320px) and (max-width: 480px) {
+          font-size: 15px;
+            width: 80%;
+      }
+    }
+  }
+  .lSPager{
+    display: none !important;
+  }
+}
+.sec3{
+  padding-top: 60px;
+  // padding-bottom: 60px;
+  background: url(../img/map_dark_bg.jpg)center center;
+  background-size: cover;
+  .head-text{
+    @extend %head-text;
+    margin-bottom: 60px;
+  }
+  .box{
+    margin-bottom: 90px;
+    @media (min-width: 0) and (max-width: 480px) {
+      margin-bottom: 60px;
+    }
+    img{
+      width: 100%;
+      height: 100%;
+      @media (min-width: 481px) and (max-width: 1280px){
+        width: 75%;
+        height: 75%;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        margin-top: 50px;
+        }
+      @media (min-width: 320px) and (max-width: 480px) {
+          width: 75%;
+          margin-right: auto;
+          margin-left: auto;
+          display: block;
+      }
+    }
+    .info{
+      padding-top: 90px;
+    }
+    h2{
+        color: $color1;
+        font-family: $f-bold;
+        text-transform: uppercase;
+        font-size: 30px;
+        margin-bottom: 30px;
+        letter-spacing: 1px;
+        @media (min-width: 767px) and (max-width: 1280px){
+              font-size: 25px;
+          }
+          @media (min-width: 481px) and (max-width: 767px){
+            font-size: 25px;
+            text-align: center;
+          }
+
+        @media (min-width: 320px) and (max-width: 480px) {
+            font-size: 25px;
+            text-align: center;
+        }
+    }
+    p{
+      span{
+        color: $color1;
+        text-transform: uppercase;
+      }
+      color: #fff;
+      font-size: 20px;
+      @media (min-width: 767px) and (max-width: 1280px){
+            font-size: 15px;
+        }
+        @media (min-width: 481px) and (max-width: 767px){
+          font-size: 15px;
+          text-align: center;
+          width: 90%;
+          margin-right: auto;;
+          margin-left: auto;
+        }
+      @media (min-width: 320px) and (max-width: 480px) {
+          font-size: 15px;
+          text-align: center;
+          width: 90%;
+          margin-right: auto;;
+          margin-left: auto;
+      }
+    }
+  }
+}
+.sec4{
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: url(../img/map_light_bg.jpg)center center;
+  .head-text{
+    text-align: center;
+    margin-bottom: 60px;
+    color: $color-background;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: $f-bold;
+    letter-spacing: 1px;
+    @media (min-width: 481px) and (max-width: 1280px){
+          font-size: 30px;
+      }
+
+    @media (min-width: 320px) and (max-width: 480px) {
+        font-size: 30px;
+    }
+  }
+  .list-sec5,
+  .list-sec4{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li{
+      margin-bottom: 35px;
+      cursor: pointer;
+      span{
+        display: block;
+        // width:65px;
+        height: 61px;
+        line-height: 59px;
+        text-align: center;
+        border-radius: 15px 15px 0 0 ;
+        color: $color-background;
+        font-size: 30px;
+        border: 2px solid $color-background;
+        transition: all ease-in-out .3s;
+
+        @media (min-width: 0) and (max-width: 767px){
+            height: 52px;
+            font-size: 25px;
+          text-align: center;
+          line-height: 51px;
+        }
+
+      }
+      .sm-screen{
+        width: 100%;
+      }
+      h2{
+        display: inline-block;
+        color: $color-background;
+        font-size: 25px;
+        text-transform: uppercase;
+        font-family: $f-bold;
+        letter-spacing: 1px;
+        margin-bottom: 15px;
+        @media (min-width: 481px) and (max-width: 1280px){
+              font-size: 20px;
+          }
+
+        @media (min-width: 320px) and (max-width: 480px) {
+            font-size: 20px;
+        }
+      }
+      p{
+        color: $color-background;
+        font-size: 18px;
+        // text-transform: capitalize;
+        width: 90%;
+        @media (min-width: 481px) and (max-width: 1280px){
+              font-size: 15px;
+          }
+
+        @media (min-width: 320px) and (max-width: 480px) {
+            font-size: 15px;
+        }
+      }
+    }
+    .active{
+      span{
+          color: $color1;
+          background-color: #39437C;
+      }
+    }
+  }
+  .my-contente,
+  .my-content{
+    transition: all ease-in-out .3s;
+    .img{
+      // width: 414px;
+      // height: 664px;
+      display: block;
+      margin-left: auto;
+        margin-right: auto;
+        // box-shadow: -15px 15px 15px rgba(2, 3, 5, 0.32);
+        background-color: transpernt;
+    }
+    .h2-content{
+      display: inline-block;
+      color: $color-background;
+      font-size: 25px;
+      text-transform: uppercase;
+      font-family: $f-bold;
+      margin-bottom: 15px;
+      @media (min-width: 481px) and (max-width: 1280px){
+            font-size: 20px;
+        }
+
+      @media (min-width: 320px) and (max-width: 480px) {
+          font-size: 20px;
+
+      }
+    }
+      .p-content{
+        color: $color-background;
+        font-size: 18px;
+        text-transform: capitalize;
+
+        @media (min-width: 481px) and (max-width: 1280px){
+              font-size: 15px;
+                    margin-bottom: 15px;
+
+          }
+        @media (min-width: 320px) and (max-width: 480px) {
+            font-size: 15px;
+              width: 80%;
+                    margin-bottom:60px;
+              margin-right: auto;
+              margin-left: auto;
+        }
+      }
+  }
+
+}
+.sec5{
+  padding-top: 90px;
+  padding-bottom: 60px;
+  .big-img{
+    margin-bottom: 30px;
+    width: 75%;
+  }
+  .head-text{
+    @extend %head-text;
+    margin-bottom: 30px;
+  }
+  p{
+    font-size: 25px;
+    color: $min-color;
+    margin-bottom: 30px;
+    @media (min-width: 481px) and (max-width: 1280px){
+          font-size: 20px;
+      }
+
+    @media (min-width: 320px) and (max-width: 480px) {
+        font-size: 20px;
+    }
+    span{
+      color: $color1;
+      text-transform: uppercase;
+    }
+  }
+  a{
+    margin-left: 15px;
+    img{
+      width: 65px;
+      height: 65px;
+      // @media (min-width: 320px) and (max-width: 480px) {
+      //   width: 40px;
+      //   height: 40px;
+      // }
+      @media(max-width: 767px){
+        width: 40px;
+        height: 40px;
+      }
+    }
+  }
+}
+.sec6{
+    // margin-top: 90px;
+    background: url(../img/become_a_captain_en.jpg) center center no-repeat;
+        min-height: 400px;
+  .container-fluid{
+    overflow: hidden;
+  }
+  // .background{
+  //       // background: url(../img/become_a_captain.jpg) center center no-repeat;
+  //   min-height: 400px;
+  // }
+  .content{
+    // background-color: #333D6F;
+    // min-height: 400px;
+    // padding-left: 33%;
+    padding-top: 83px;
+// @media(max-width: 767px){
+//       background: url(../img/become_a_captain.jpg)left center no-repeat;
+//       padding-bottom: 70px;
+// }
+// @media(max-width: 767px){
+//       padding-left: 8%;
+// }
+h2{
+  margin-bottom: 30px;
+  font-size: 40px;
+  color:#FFF488;
+  text-transform: uppercase;
+  font-family: $f-bold;
+}
+p{
+  margin-bottom: 60px;
+  color: $min-color;
+  font-size: 25px;
+  text-transform: capitalize;
+  @media(max-width: 767px){
+        font-size: 20px;
+  }
+}
+a{
+@extend %btn-style;
+}
+  }
+
+
+}
